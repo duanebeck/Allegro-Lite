@@ -1,0 +1,111 @@
+Building Tools and Materials
+============================
+Last update  31 Oct 00
+
+
+Essential
+---------
+
+* Heavy stiff straightedge.  
+For stripping or truing balsa, lining up stuff, applying uniform 
+pressure to a long seam, etc.  A good size is 1/4 x 1 x 18 or 24  
+aluminum or steel.  A good hardware store should have bar stock 
+like this.  For the A-Lite you will need two such 18" straightedges 
+to spread clamping pressure uniformly to the top of the spar.
+
+* Flat building surface.  Particle board won't warp, but must
+be supported against sagging.  Heavy plate glass is best.
+Building the A-Lite does not require pins to be stuck in the board.
+Also, pin holes and pin dents in balsa cause significant stress 
+concentrations, which is bad on this glider where everything is
+pushed to the limit.  I used the straightedges and other weights 
+to hold stuff down during assembly.
+
+* Cutting tools. 
+X-acto #11 blades.  
+Single-edge blades (cheaper than #11).
+Fine razor saw.
+
+* Big and small triangles.  Metal or acrylic.  
+For making square corners, getting stuff perpendicular to table, 
+positioning dihedralled tips accurately over plan, etc.
+
+* Long metal ruler.  At least 18", but 24" or 36" is better.
+For measuring long stuff.  Can also be used for cutting.
+
+* Sanding blocks.  Blocks for removing material using 80-220 grit
+should be wood or metal (i.e. hard).  The "T-bar" blocks are good, 
+but straight wood blocks about 3/4" x 2" or so are certainly OK.  
+A long block is usually better than a short one -- just under 
+11" in length to match sandpaper size makes sense.  
+Blocks for polishing using 320-1500 grit should be slightly soft 
+to allow conforming to surface.  Hard foam rubber or pink foam 
+are good.  Soft blocks can be shorter -- 5" long works well.
+
+
+Useful
+------
+
+* Dremel tool.  $50-80.
+The most useful bits are the cutoff disk and little drum sander.  
+The little optional chuck for drill bits is also useful.
+
+* Drill press.  $80+
+
+* Belt or disk sander.  $70
+
+* Twist drills
+
+* Long nose pliers
+
+* Wire cutters
+
+* Small triangular file
+
+* Razor plane or sharp block plane
+
+* Weights
+
+* Spring clothes pins or small clamps
+
+* Micrometer or dial caliper
+
+
+Disposables
+-----------
+
+* dust mask
+
+* mixing cups and sticks for larger epoxy batches
+
+* Post-It Notes  (handy for small epoxy batches, stickable next to workpiece)
+
+* nitril gloves (required for working with laminating epoxy)
+
+* respirator (slows down sensitization to epoxy, CA, etc.)
+
+* masking tape
+
+* Saran wrap or waxed paper
+
+* 3M75 repositionable contact adhesive for temporarily holding parts to 
+  work surface for shaping and pinless assembly.
+
+* Yellow carpenters wood glue (e.g. Titebond).
+  Best for wood/wood joints.
+
+* Model airplane cement  (e.g. Ambroid, Duco, SigMent)
+  Best for splicing soft balsa sheets.
+
+* 5-minute epoxy for low-stress small bonds.
+
+* Slow epoxy (at least 30 minutes, but 1 hour or more is better)
+  for high-stress and large bonds.
+
+* Laminating epoxy for composite work.
+
+* CA adhesives (slow, fast).
+
+* Microballoons.
+
+* Cabosil for thickening epoxy

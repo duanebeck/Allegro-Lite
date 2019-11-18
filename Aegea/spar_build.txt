@@ -1,0 +1,99 @@
+The bend in the center panel was a bit more work than I expected, 
+but there were no major problems and it was managable.
+It sure gets lots of "howd'yadothat?" questions? :-)
+
+
+The first thing to make is a 5.8 deg (or 6 deg) wedge out of foam:
+2.00" high, 19.0" long, and at least 9" wide.  This will be used to:
+
+* jig up the bent center spar
+* jig up the center wing beds during core cutting
+* jig up the center wing beds during core/spar assembly
+* support the core during sanding and general preparation
+* jig up the center wing beds during bagging
+
+Use high-density foam for the wedge if possible.  It will get 
+lots of use.  You can alternatively make two 1.00" high (3 deg) wedges
+if 2" dense foam is not available.
+
+
+The center spar is glued up with the bend in it using the single 
+6 deg wedge, or the two 3 deg wedges.  You gave to press down 
+extra hard right at the center bend so the kink is "sharp".
+Use plenty of epoxy at the center kink, so it doesn't pop apart
+prior to application of the glass wrap.  The cap/web bond away 
+from the kink is not critical.
+
+Put metal or glass plates on the foam wedge and table to make sure
+things stay dead flat.  My spar got a slight wave on the side that
+was on the foam wedge, because the foam dented slightly under the 
+clamping load.  It still fit within the wing contour, but barely.
+
+The caps have significant built-in stresses at the kink, but this
+doesn't matter.  The spar is sized entirely for stiffness and doesn't
+come close to its failure stress.
+
+
+I suggest using Kevlar joiner tubes.  Very light, and they won't nick
+the CF rods.  If the permanent rod cracks, your wing is junked,
+so Kevlar tubes are much safer than metal.  The BD folder as the 
+AL group has a PDF sheet on wrapping Kevlar tubes.
+
+
+Before applying the glass wrap, I applied anti-burst CF tow wrap 
+for 3/16" at the center-panel's spar ends, saturating while wrapping. 
+The caps are first sanded down at that spot to prevent a bump.
+About five 3K tow wraps are sufficient.
+
+The spar wrap is 2.0 oz bias glass in the center spar, overlapped about 
+10" in the center (two layers there).  The tip spars got 0.75 oz glass.  
+One extra 2.0 oz glass wrap was put over all four joiner blocks.
+
+All glass was applied with 3M-77, then saturated, blotted, and bagged.
+No breather is necessary since compaction isn't critical.
+Make the bags come off roughly in the middle of the balsa face.
+Be very careful not to nick the glass when cleaning up.
+Glass failure in spar sample tests always occurs at the edge 
+of the carbon caps, so round off these edges generously.
+
+
+The bolt tab was cut from 3/16" thick PC board.  Aluminum should 
+also work OK.  Plywood will wear too much with the small bolt I think.
+To install the bolt tab, cut a small "window" in the glass skin
+which matches the tab.  Using a bent piece of sharpened piano wire,
+hog out the soft balsa top to bottom and slightly wider than the tab.
+Make sure the spar caps are exposed on the inside.  Fill the void
+with epoxy and push the tab into position letting the displaced
+epoxy ooze out.
+
+
+Once I had the bent spar, the rest was nothing really special.
+I sliced the cores apart using the spars themselves as slicing jigs.
+Some sanding was required to minimize the gaps.  The center-panel
+core pieces also require fitting together at a bevel on the centerline.
+Any voids can be later filled with Micro-Fill.
+
+The foam core pieces were glued onto the spar with a minimal amount 
+of 15-minute epoxy.  This joint takes no load, and spotty coverage 
+of epoxy in the joint is OK.  The bottom beds are used for vertical
+alignment.  Masking tape on the bottom spar ensures that the spar 
+will be slightly within the foam contour.  The gap is filled with 
+microballoons/epoxy and sanded flush.  The top of the spar is also 
+below the contour, and that's also filled.  The filler is not easy 
+to sand.  MicroFill would be a lot easier, but it's weak, and it's 
+important to solidly connect the spar to the skin.  Hard balsa may 
+be an easier alternative.  A-grain balsa is better for this, since 
+it's stronger through the thickness than C-grain.  
+
+Any remaining voids between the core and spar can be filled with 
+Micro-Fill.  This is also effective on the inevitable dings put 
+into the foam during the assembly and preparation.  Before filling,
+a ding should be first mostly sprung back with steam, by covering 
+with a wet paper towel and applying an iron set at about 230-250F.
+
+
+For bagging the center panel, the bottom Mylar is one piece, 
+and the top Mylars are two pieces, all hinged together at the
+back edge.  Fit the Mylar butt joint in the center as well 
+as possible to minimize the epoxy ridge.
+

@@ -1,0 +1,85 @@
+Below are the RD6000 radio settings I've settled on 
+for my Allegro-Lite and Allegro-E-Lite.  For Airtronics
+radio owners these should be a good starting point.
+For other radios, they should give some indication
+of appropriate settings to reduce trial and error
+on the field.
+
+The reduced Dual Rate 2 settings allow smoother flying
+when going real fast, especially when you're not yet 
+used to the glider's inherent quickness.  The downside
+is that it's possible to forget to switch back to DR1
+when you need the large throws for landing or tight 
+thermalling down low.
+
+I like to use the Flap -> Elevator mix, which makes the 
+Flap switch into a "go" switch.  Flicking it forward changes 
+the trim to a much faster glide for those long upwind runs.
+This is especially handy when the glider is high directly
+overhead and tweaking pitch with the stick is difficult.
+Again, the downside is that it's easy to forget to put 
+back to the slow glide position for the next winch launch. 
+"Hey! How come it's not climbing steeply?!"
+
+
+Allegro-Lite
+
+ Elevator
+   80%  Dual Rate 1
+   60%  Dual Rate 2
+   25%  DR1 Expo
+   25%  DR2 Expo
+  -95%  Centering  (only if Th -> El mix is used for the spoiler)
+  130%  Up EPA
+  110%  Dn EPA
+
+ Aileron (Rudder) 
+  115%  Dual Rate 1
+   70%  Dual Rate 2
+   45%  DR1 Expo
+   35%  DR2 Expo
+    0%  Centering
+  110%  L EPA
+  110%  R EPA
+
+ Throttle (Spoiler)
+  150%  Back EPA  (adjust to set spoiler max open position)
+  145%  Fwd  EPA  (adjust to set spoiler closed position)
+   75%  Th -> El mix
+
+ Flap (fast glide trim switch)
+ -100%  EPA
+  -20%  Fl -> El mix  (variable: needs less with aft CG, more with forward CG)
+
+
+
+Allegro-E-Lite
+
+ Elevator
+   80%  Dual Rate 1
+   60%  Dual Rate 2
+   25%  DR1 Expo
+   25%  DR2 Expo
+   15%  Centering  (only if Th -> El mix is used)
+  130%  Up EPA
+  110%  Dn EPA
+
+ Aileron (Rudder) 
+  115%  Dual Rate 1
+   70%  Dual Rate 2
+   45%  DR1 Expo
+   35%  DR2 Expo
+    0%  Centering
+  110%  L EPA
+  110%  R EPA
+
+ Throttle
+  -10%  Centering
+  100%  Back EPA  (adjust to set motor off)
+   80%  Fwd  EPA  (adjust to set full throttle range)
+   20%  Th -> El mix  (will depend on thrust line angle)
+
+ Flap (fast glide trim switch)
+ -100%  EPA
+  -30%  Fl -> El mix  (variable: needs less with aft CG, more with forward CG)
+

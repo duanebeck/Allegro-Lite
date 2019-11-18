@@ -1,0 +1,109 @@
+
+Scaling test results to winchproof RC glider spar
+-------------------------------------------------
+Mark Drela 
+Feb 15 00
+
+
+This spar sizing procedure is based on the test data 
+obtained by loading spar samples to destruction.
+
+
+
+Typical two-meter glider example...
+
+Sparcap thickness  :     Tc =  0.028 in  (4 plies, commonly sold as 0.030 in)
+Design cap stress  :  sigma = 140000 psi (still may be conservative I think)
+Design shear stress:    tau =  12000 psi (50% safety margin included)
+Allowed core stress:  sig_C =    500 psi (50% safety margin for 4 lb balsa)
+
+Heavier balsa can withstand proportionately larger sig_C.
+
+Note: The bottom spar cap is in tension, and can surely tolerate
+at least 200000 psi or even 300000 psi stress.  The bottom cap 
+thickness can therefore be 0.021 in (3 plies) or even 0.014 in (2 plies).
+
+
+Conditions at wing root:
+
+wing span   :  b = 78 in
+wing load   :  F = 160 lb        (winch line force)
+spar height :  h = 0.9 in        (9% airfoil with 10 in chord)
+cap modulus :  E = 2.0x10^7 psi  (for common T-300 carbon fiber)
+
+bending mom.:  M = b F/8 = 1560 lb-in
+cap load    :  P = M/h   = 1733 lb
+shear load  :  S = F/2   = 80 lb
+
+required cap area   :  Ac = P / sigma = 0.0124 in^2
+required cap width  :   w = Ac / Tc   = 0.44 in
+
+required shear area :  As = S / tau   = 0.0067 in^2
+required skin thick.:  Ts = As / 2h   = 0.0037 in   (2 layers of 1.5 oz glass)
+
+estimated core compressive strength:  sig_C = tau As / h w  =  200 psi
+                                                            (no problemo!)
+
+estimated tip deflection:  d = b^2 sigma / (4 E h) = 12 in
+                                                     (yikes!)
+
+This particular case may call for a reduction in the allowable 
+stress sigma to get proportionately lower tip deflection.  
+The spar will then be stronger than necessary but that 
+has to be accepted.
+
+
+
+Ideally one wants to taper the spar dimensions so as to maintain constant 
+sigma and tau.  This will give minimum weight for a given strength.
+
+Assuming the cap thickness Tc and spar height h are roughly constant, 
+the relative spar width and shear skin thickness should taper as follows:
+
+       center  ..     midspan  ..     tip
+       -----------------------------------
+ w  ~  1.0    0.56    0.25    0.06    0.0
+ Ts ~  1.0    0.75    0.50    0.25    0.0
+
+Simple linear taper of w is OK, but gives unnecessary strength 
+(and weight) outboard.  Ts will obviously need to be stepped ---
+from 2 layers in the middle dropping to 1 layer at midspan.
+
+If w is constant, then the sparcap thickness Tc should taper the same
+way as w above.
+
+
+
+
+Sizing wood spars
+-----------------
+
+The sizing example above can also be followed for sizing 
+spar caps and shear webs in traditional I-beam wood wings.  
+The following minor definition changes must be made.  
+I got the wood properies out of an old book on wood 
+aircraft structures.
+
+h  =  spar height measured between cap section midpoints
+   =  total height  -  single cap thickness
+
+As =       wood shear web area
+Ts = As/h  wood shear web thickness
+
+E = 1.3x10^6 psi  (spruce)
+
+tau   =  200 psi  (for 4 lb balsa.  Scale up for larger densities.)
+sigma = 5000 psi  (spruce)
+
+Notes: 
+
+* tau and sigma are values at failure.  Reduce these to get 
+some safety margin.  
+
+* The same ideal spanwise taper rates apply.  Typical existing
+wood spars are grossly oversized outboard relative to the center.
+
+* Much more modest winch loads will need to be chosen with wood,
+else the spar will end up wider than the airfoil chord!
+
+

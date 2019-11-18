@@ -1,0 +1,103 @@
+
+Documentation for  sparsect.xls  Spreadsheet
+=============================================
+
+
+Purpose
+-------
+The spreadsheet computes the structural properties 
+of a beam structure which consists of a collection 
+of structural members.  An example is a wing, with
+sparcaps, webs, skins, etc.  Each member is assumed 
+to have either a rectangular or a tubular cross-section.
+All the members are assumed to be solidly tied together
+in shear, so that they cannot slide past each other
+in the spanwise direction.
+
+
+Inputs
+------
+The data in the yellow boxes is input by the user.
+Consistent units must be used.  Both English and metric
+units are given for each spreadsheet variable below.
+
+BM [lb-in,N-m]  beam bending moment, tending to deflect beam in y direction
+
+y  [in,m]       vertical location of element's centroid from some arbitrary y=0 datum line
+
+D  [in,m]       outside diameter of round element, D=0 for rect. elements
+
+d  [in,m]       inside  diameter of round element, d=0 for rect. elements and solid rods
+
+h  [in,m]       height of rectangular element,  h=0 for round elements
+
+w  [in,m]       width  of rectangular element,  w=0 for round elements
+
+E  [psi,Pa]     Young's modulus (elastic modulus) of element material
+
+rho [arbitrary] density of element material, used only to display mass/span 
+
+
+Outputs
+-------
+The data in the uncolored boxes is output.  
+Do not change these, else you will clobber the spreadsheet.
+Only the outputs of main interest are described below.
+The rest are intermediate quantities used in the calculations.
+
+
+Overall beam property outputs
+- - - - - - - - - - - - - - - 
+
+ybar       [in,m]            y location of beam "neutral plane", 
+                             where the material has zero bending stress
+
+EI_total   [lb-in^2,N-m^2]   total bending stiffness of beam
+
+w"         [1/in,1/m]        beam curvature  =  BM / EI_total
+
+mass/span  [arbitrary]       gives total mass/span of all elements together,
+                             for comparison to other beam configurations
+
+EI/mass    [arbitrary]       gives overall stiffness/mass (i.e. structural efficiency)
+
+
+
+Individual element property outputs
+- - - - - - - - - - - - - - - - - - 
+
+EA       [lb,N]           axial stiffness of this element
+ 
+rho A    [arbitrary]      contribution of this element to mass/span
+
+EI       [lb-in^2,N-m^2]  contribution of this element to EI_total
+
+sigmax-  [psi,Pa]         maximum compressive stress in element
+
+sigmax+  [psi,Pa]         maximum tensile stress in element
+
+
+
+
+Other Useful Quantities not Displayed
+-------------------------------------
+
+Tip deflection
+- - - - - - - - 
+If the spreadsheet corresponds to a wing center section under bending,
+the tip deflection can be estimated by assuming a spanwise-constant
+curvature, which is what nearly occurs if the structure tapers towards
+the tip in an ideal manner.
+
+  d_tip  =  w" span^2 / 8 
+
+
+Material strain
+- - - - - - - - 
+Any material attached to the bending beam is subjected to extensional strain.
+For material at location y, the strain eps is
+
+  eps  =  -w" (y - ybar)
+
+positive for tension and negative for compression.
+

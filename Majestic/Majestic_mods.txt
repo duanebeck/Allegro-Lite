@@ -1,0 +1,170 @@
+Recommended Modifications to Laser-Arts Majestic
+
+All mods are roughly independent, so only a partial 
+mod list can be selected from the list below.
+
+Mark Drela  14 Aug 01  (last modified 2 Nov 01)
+
+
+
+================================
+Wing layout modifications
+
+Original wing layout
+#  span    chord   alpha   z  
+    0.     10.0    0.0    0.0 
+   24.75   10.0    0.0    0.0 
+   42.0     8.5    0.0    2.0
+   54.0     6.0    0.0    6.7
+
+Modified wing layout
+#  span    chord   alpha   z  
+    0.     10.0    0.0    0.0 
+   24.75   10.0    0.0    0.0
+   42.0     8.5   -1.0    3.0
+   54.0     6.0   -1.0    7.5    |  suggested 1-bay extension with
+   56.0     4.5   -1.0    8.25   |  curved LE a'la Allegro-Lite
+
+where z is the height of the dihedralled-wing sections above the table
+
+Mid panel now has 1 degree washout twist (TE at 8.5" chord raised by 0.15"),
+while center and tip panels are still flat. 
+ - improves tip stall margin (stock Majestic is prone to tip stall during slow circling)
+ - reduces CDi by 2% at low speeds
+ - little adverse impact on penetration capability
+
+Effective dihedral has been increased from 8.3 to 10.2 degrees.
+ - improves roll response
+ - reduces the sideslip needed to hold a steady turn (and hence reduces drag)
+
+More dihedral burden is now carried by mid panels.
+ - improves tip panel stall margin when in steady sideslip in turn
+
+Tip panels extended by 2" or more, with curved (swept back) leading edge
+like that on the Allegro-Lite.
+ - reduces CDi by additional 8% on top of washout's reduction
+ - cleans up tip flow during steady sideslip in turn
+
+
+In slow, tight thermal flying, the modified wing is expected to be 
+more maneuverable, more docile, and give a 5-7% sink rate reduction.
+
+If the wingtip extension is deemed to be too much trouble, then just
+round off the last rib bay LE like on the Allegro-Lite.  The stock 
+end rib is not used in this case.
+
+--------------------------
+Note (29 Sep 01): 
+John Hayes has recently added the 1 deg washout to his otherwise
+stock Majestic, using a heat gun.  He reports a major improvement 
+in tight circling behavior -- the glider no longer tends to fall off 
+onto the inside wing.
+--------------------------
+
+=================================
+Tail layout modifications
+
+Original tail layout
+# span   chord   alpha   z
+  0.0    7.5    0.0    0.0
+ 13.0    4.5    0.0    8.3
+
+Modified tail layout
+# span   chord   alpha   z
+  0.0    7.5    0.0    0.0
+ 17.0    4.5    0.0   12.0
+
+
+A 4" extension is added to the tip of each V-tail half,
+and the tail V-dihedral has been increased from 40 to 45 degrees.
+
+ - Effective horizontal tail volume is increased from 0.40 to 0.44
+    + CG location can be moved back slightly from recommended position
+
+ - Effective vertical tail volume is increased from 0.018 to 0.028
+    + Yaw damping rate will increase by about 60%
+    + Rudder roll power will increase by about 90%  
+       (60% more rudder yaw power together with 22% more dihedral)
+
+A simple way to implement this is to increase the rib spacing
+to 2.4", and extend the spanwise wood via splices or just replace it.
+
+=================================
+Wing airfoil modifications
+
+The SA7038 airfoil is somewhat overcambered for this glider.
+It penetrates OK, but not as well as it could with a lower
+camber airfoil.  One of two modified airfoils is suggested:
+
+SA7038 mod 6
+SA7038 mod 7
+
+These differ in the severity of the LE upsweep modification.
+Both airfoils have the same TE modification.
+Specifically:
+
+a) The bottom LE upsweep is increased slightly (mod 6) 
+or significantly (mod 7).
+b) On both modified airfoils, the slight undercamber of the SA7038 
+is flattened by removing the rear 5% of the chord, and straightening 
+the downward-curved bottom surface to regain the sharp TE.  This is 
+simple to do with the Majestic's rib/TE structure.  The airfoil is now 
+flat behind the spar which should simplify construction and covering 
+somewhat.  The aspect ratio has also been increased by about 5%.
+
+Mods a) and b) are cumulative, and only one of these 
+can be implemented for a partial improvement.
+
+
+The modified airfoils are quite similar to the MH32, but a bit thicker.
+Compared to the stock SA7038, at 50 mph they will increase L/D by
+30% or 40% (mod 6 or mod 7), dramatically improving penetration.
+Float and winching performance will be only slightly degraded, 
+but this can be easily more than compensated with a lower flying weight.
+
+A lower weight is highly desirable to take best advantage of the 
+new airfoils.  Consider using light radio gear and a carbon tube boom 
+to eliminate any nose weight.  The elevator is unnecessarily beefy 
+at the tip.  As you go out, use larger lightening holes than those 
+shown on the plan.  Move the elevator hinge to the bottom and 
+shorten the horns by 1/4".
+
+
+=================================
+Structural modifications
+
+As minimum, beef up the spar.  My numbers indicate that to 
+make it winchproof it wants 0.040" carbon on top, and 0.030"
+or 0.020" carbon on the bottom sparcaps at the wing center.
+These can taper in thickness outboard.  CST's or ACP's 
+tapered carbon would work well.  Wrap this spar near the 
+end of the joiner rod and at the root rib to prevent it
+from bursting apart at these point-load locations.  The
+shear web wants to be at least 1/4" total thickness of 
+10 lb balsa in the center, this thickness tapering roughly 
+linearly outboard.  With the specified carbon strips,
+the spruce caps are largely superfluous, and could be replaced 
+by hard balsa.
+------------------
+Note  15 Aug 05
+See Adding_Carbon_Fiber.doc and .pdf documents for CF/balsa
+replacement-sparcap techniques.
+------------------
+The sparcap carry-though method which is used on the outer 
+dihedral break of the Allegro-Lite could be used for both 
+breaks of the Majestic.  This is easy to install and vastly 
+lighter than a ply joiner.
+
+Minimizing yaw inertia should be the #1 priority 
+for getting the best turn handling possible.  
+The wing structure looks kinda beefy towards the tips 
+which doesn't help.  I think you can progressively narrow 
+the TE as you go out (lengthen the capstrips to reach it).  
+A 3/4" wide TE should be fine at the tip.  Narrow the outer 
+capstrips, maybe down to 1/8" in the tip panels.  
+Use the lightest sheeting possible for the tips.  The extreme
+outboard spar can be whittled down.  The beefy end rib can be 
+replaced by the one-bay tip extension with a curved leading edge 
+as described above, or just installing the curved LE in the last
+rib bay.  Grams count at the wingtips!
+

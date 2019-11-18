@@ -1,0 +1,170 @@
+Bubble-Dancer Parts and Materials List        MD  18 Sep 02    edited 26 Oct 05
+======================================
+
+
+Materials, Parts, Hardware                              Supplier
+--------------------------                              -----------
+
+* Bubble Dancer Laser Set                               Laser Arts 
+    ribs, webs, LE templates
+    $30.80/set + $6 shipping for up to 3 sets
+
+* Bubble Dancer Carbon Set                              CST
+   see spar.pdf drawing for itemization
+
+* Tail boom 36" x 0.79"->0.45" OD                       www.tailboom.com
+    4 or 5 plies uni CF, light glass scrim
+    approx. $22 + shipping
+
+* V-mount + rudder horn                                 Bud Elder
+    approx. $25 + shipping
+ or...  5.6 oz CF cloth, for home-built V-mount
+   see bd_vmount.pdf  drawing
+
+* 12" x 3/8" CF rod  (cut into two 5.7" pieces)         ACP, CST
+   see joiner.pdf drawing
+
+* 3" x 0.080  or  0.098  CF rod                         ACP, CST
+   see joiner.pdf drawing
+
+* 12" x 13/32" brass tube     (joiner housing tubes)
+ or...  5.6 oz Kevlar, for home-rolled housing tubes    ACP, CST
+   see kev_tube.pdf  drawing
+
+*  1.8 oz  Kevlar, about 2 ft x 3 ft       (pod)         ACP, CST
+
+*  3.0 oz Uniweb carbon                    (pod reinf.)  ACP, CST
+
+*  3K Kevlar tow, 90 ft                   (spar wrap)    ACP
+or... 1K Kevlar thread                                   CST
+
+*  2.0 oz glass     (joiner wrap, bolt beam wrap, endrib reinf)
+
+*  0.75 oz glass    (misc reinf)
+
+*  0.050 CF rod                   (elevator pushrod)       CST, ACP
+
+* 0.029 stainless wire            (rudder pushrod)         www.SmallParts.com
+
+*  48" 0.050-size Teflon housing                           CST
+    stretch a bit for 0.050 CF elevator pushrod
+    stretch a lot for 0.029 steel rudder pushrod
+OR...
+
+*  Bondable Teflon housing                                www.tailboom.com
+
+
+5) 10-32 or 10-24 x 1" Nylon wing bolts, Nylon nuts  (2)
+
+6) 6-32 Nylon stab bolt
+
+
+
+Radio
+-----
+
+* JR-341 tail servos (2)    or equivalent
+
+* HS-81 spoiler servo   or equivalent  (must be thin)
+
+* Hitec 555 RX  or equivalent
+
+* Mini switch  (Double-Pole, Double-Throw)
+
+* 4 x AA, 700mAh RX battery, square 
+
+
+
+
+Wing wood    See wing_plan.pdf drawing
+---------
+
+* 3/32" x 4 x 36,  10-12#, B or C grain       (top center sheeting)
+
+* 3/32" x 3 x 36,  10-12#, B or C grain       (bot center sheeting)
+
+* 1/16" x 4 x 48,  6-8#, B or C grain         (top mid sheeting)
+
+* 1/16" x 3 x 48,  6-8#, B or C grain         (bot mid sheeting)
+
+* 1/16" x 3 x 36,  4-5#, B or C grain         (top tip sheeting)
+
+* 1/16" x 3 x 36,  4-5#, B or C grain         (bot tip sheeting)
+
+* 5/16" x 1.5 x 36 aileron stock, 6-8#, C grain   (center TE)
+
+* 1/4" x 1.25 x 48 aileron stock, 5-6#, C grain   (mid TE's)
+
+* 3/16" x 1.0 x 36 aileron stock, 5-6#, C grain   (tip TE's)
+
+* 3/32" x 2 x 36,  5-7#                         (rear support strips)
+
+* 1/4 x 2 x 36,  6-8#,  C grain                 (spoiler)
+
+* 1/4 x 36  triangle,  light
+
+* 3/4" x 3" basswood stock, about 4" long      (joiner blocks)
+   see joiner_build.pdf drawing
+
+* 1/32" x 2 x 36,  6-8# ,   A grain            (spar cover filler)
+
+
+
+Tail wood    See htail.pdf, vtail.pdf  drawings
+---------
+(If grain is not specified, it's not important)
+
+*  3/8" scrap, 4-5#, preferably C grain         (stab nose)
+
+*  3/8" scrap,  16#  (rock hard!)               (stab insert)
+  or... two 3/16" layers
+  or... three 1/8" layers
+
+*  3/8" x 2 x 36,  6-8#                         (main framework)
+
+*  1/8" x 1 x 36,  6-8#, C grain                (TE's)
+
+*  0.8 oz or 1.0 oz Kevlar                      (rudder hinge)
+
+
+
+Fuselage wood   See fusepod.pdf  drawing
+-------------   
+
+* 1/4 x 1/2 x 24  basswood                  (pod siderails, servo rails)
+
+* 1/4 x 3/4 x 12  basswood                  (bolt beam core)
+
+* 1/32  birch ply                           (bulkhead faces)
+
+* 3/16" scrap balsa,  16#                   (bulkhead cores)
+ (same wood as stab insert)
+
+
+
+Covering
+--------
+
+*  Ultracote Lite                             Horizon Hobby
+   Red, Violet,or Blue are good for bottom
+
+
+Glues
+-----
+
+* Titebond or equivalent            (all wood/wood joints)
+
+* Low-viscosity laminating epoxy    (layups, spar wetting)  CST
+
+* Fumed silica thickener "Cabosil"                          CST, ACP
+   mix into epoxy for spar gluing
+
+* Ambroid               (LE sheeting gussets, spar fill, splicing sheets)
+  or Duco, or Sig-Ment 
+
+* CA                    (misc. non-critical bonds, soaking wood at bolt holes)
+
+* 5-min epoxy           (misc. non-critical bonds)
+
+* 3M-77                             (tacking down glass)
+

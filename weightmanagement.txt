@@ -1,0 +1,83 @@
+A few notes on weight are in order.
+
+First of all, it's important to distinguish between weight and inertia
+(yaw inertia in particular).  Inertia depends on where the weight is
+added.  Let's look at weight-related issues in order of priority.
+
+
+1.  Yaw inertia.  This is the #1 killer of handling quality of a
+rudder/elevator glider.  Every effort should be made to keep the tips
+and tail light. This is the percentagewise breakdown of yaw inertia
+on the Allegro-Lite:
+
+   44    mid  panels
+   24    tip panels
+   10    center panel
+    7    rudder
+    6    stab
+    4    boom + rods
+    2    RX battery
+    1    fuselage pod + radio
+    1    18g nose weight
+  ---
+  100%
+
+Each gram (weight of $1 bill) added at the wingtip or tail will
+increase yaw inertia by about 1%.  Roll rate will decrease by 1%, and
+Dutch roll damping will worsen.  It doesn't take many grams out there
+to really clobber the airplane's handling.
+
+Adding 1 gram to the mid panels or tailboom will increase yaw inertia
+by about 0.3%.  Not quite as severe but still a concern.
+
+Adding weight to the fuselage or nose has no significant effect on yaw
+inertia.  It will actually improve things a bit, since the
+inertia/mass ratio (which is what really counts) will get smaller.
+
+A larger vertical tail can overcome a larger yaw inertia, but it has
+its own drawbacks from the added tail weight and drag.  Larger rudder
+sideforces also cause larger sideways translation in the "wrong" 
+direction before the bank kicks in, making spot landings more difficult.
+It's best to nip the problem at the source by keeping yaw inerta
+as small as possible.
+
+
+2.  Total weight (turning).  The most severe drawback of added weight
+is an increased minimum turn radius.  Or equivalently, an increased
+bank angle for a given turn radius.  Increasing weight by 1% also
+increases the minimum turn radius by 1%.  This is a major concern when 
+scraping for lift at low altitude.  HLG flying suffers the most from
+excess total weight.
+
+
+3.  Total weight (electric version climb rate).  Adding 1% to the
+total weight reduces climb rate by just over 1%.  The electric A-Lite
+has a good but not exceptional climb rate, so keeping the total weight
+down is important.
+
+
+4.  Total weight (sink rate).  Adding weight increases sink rate, 
+butimproves L/D via larger Reynolds number.  As a rule of thumb,
+increasing the weight by 5% increases the sink rate by 2% and
+increases the max L/D by 0.5%.  The sink rate increase from excess
+weight is only a concern on weak days.
+
+
+5.  Pitch inertia.  This is dominated by the weight of the tail group.
+This is a relatively minor concern on the A-Lite, since the pitch
+damping is already exceptionally good.  Even doubling the pitch
+inertia would not worsen the handling all that much.  An overweight
+tail is more of a problem via the additional required noseweight and
+increased total weight (items 2,3,4).
+
+
+Bottom lines:  
+
+* Put your weight saving efforts into the tips and tail.  
+
+* HLG and electric fliers should be also very concerned with total
+weight.
+
+
+- Mark
+October 18, 2000

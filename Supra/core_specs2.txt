@@ -1,0 +1,44 @@
+
+Supra  3.4m  F3J/TD
+Core specifications
+
+Hi-load 60 for all cores
+
+
+Wing Panel 1  
+section 1:   AG40d(-2)   c = 9.75"  247.7 mm
+section 2:   AG41d(-2)   c = 8.75"  222.3 mm
+span = 31.5"  800.1 mm       sweep dxLE = 0.25"  6.4 mm 
+skin thickness = 0.003"  0.08 mm
+
+Wing Panel 2  
+section 1:   AG41d(-2)   c = 8.75"  222.3 mm
+section 2:   AG42d(-2)   c = 6.25"  158.8 mm   -0.5 deg twist
+span = 23.5"  596.9 mm      sweep dxLE = 1.00"  25.4 mm 
+skin thickness = 0.003"  0.08 mm
+
+Wing Panel 3  
+section 1:   AG42d(-2)   c = 6.25"  158.8 mm   -0.5 deg twist
+section 2:   AG43d(-2)   c = 3.75"   95.3 mm   -0.5 deg twist
+span = 12.0"  304.8 mm      sweep dxLE = 1.438"  36.5 mm 
+skin thickness = 0.003"  0.08 mm
+
+
+
+Horizontal tail
+section 1:   HT14t   c = 4.5"  114.3 mm
+section 2:   HT12    c = 2.0"   50.8 mm
+span = 13.0"  330.2 mm       sweep dxLE = 1.00"  25.4 mm
+skin thickness = 0.002"  0.05 mm
+
+note:  HT14t is HT14 thickened to 8.0%
+
+
+
+Vertical tail   (one panel only)
+section 1:   HT13    c = 8.0"  203.2 mm                      NEW!!
+section 2:   HT12    c = 3.5"   88.9 mm                      NEW!!
+span = 13.0"  330.2 mm       sweep dxLE = 1.75"  44.5 mm     NEW!!
+skin thickness = 0.002"  0.05 mm
+
+note:  HT13 is HT14 thinned to 6.5%

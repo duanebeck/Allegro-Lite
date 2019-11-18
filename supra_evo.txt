@@ -1,0 +1,206 @@
+Royal Evo Program for Supra F3J/TD
+Mark Drela      5 Sep 04   (updated  10 Jan 06)
+
+
+Setup Menu (button 1)
+=====================
+
+
+Mixer def.  submenu            (same mixers used for RES and DLG)
+----------
+
+ELEVATR+
+1 Elevator  ----  asymm
+2 Flap      ----  asymm
+3 Throttle  ----  assym
+4 Spoiler   ----  asymm
+5 Mixture   ----  symm
+
+AILERON+
+1 Aileron   ----  symm
+2 Flap      ----  asymm
+3 Throttle  ----  asymm 
+4 Spoiler   ----  asymm
+5 Ele -Tr   ----  asymm
+
+FLAP+
+1 Aileron   ----  asymm
+2 Flap      ----  asymm
+3 Throttle  ----  asymm 
+4 Spoiler   ----  asymm
+5 Ele -Tr   ----  asymm
+
+RUDDER+
+1 Rudder    ----  symm
+2 Ail -Tr   ----  symm
+3 Ail -Tr   Mix1  symm
+4 Ail -Tr   Mix2  symm
+5 Spoiler   ----  symm
+
+
+
+Assignment  submenu
+----------
+
+Controls    sub-submenu
+- - - - - 
+Throttle    Lstick   ^
+Spoiler      <O      v             (M button for DLG launch preset)
+Flap/RPM      J>     ^
+Mixture       E      v
+
+Switches    sub-submenu
+- - - - - 
+DR-ai         I>     ^
+DR-el         I>     ^
+DR-ru         I>     ^
+CombiSwitch  <N      v
+Throttle-cut --- 
+ Slot        <L      ^
+ Sum         ---
+ Interval    <O      ^
+Mix-1        <O      ^
+Mix-2        Lstick  v
+Mix-3        ---
+Teacher      ---
+Main phase   <O      ^
+Phases 1-3   ---
+
+
+
+Control Menu (button 2)
+=======================
+
+Aileron  submenu
+-------
+D/R     80%
+Trvl   100%
+Expo   -35%
+
+Elevator  submenu
+--------
+D/R     80%
+Trvl   100%
+Expo   -20%
+
+Rudder   submenu
+------
+D/R     80%
+Trvl   100%
+Expo   -15%
+
+Throttle  submenu
+--------
+Idle  10.0%
+Slow   0.0s
+
+Spoiler    submenu
+-------
+Run time     0.0s
+Fixed value  OFF
+
+Flap    submenu
+----
+Run time     0.0s
+Fixed value  OFF
+
+Contr.switch   submenu
+------------
+Lstick     v    0%
+
+
+
+Mixer Menu   (button 3)     (same mixers used for DLG, but controls differ)
+==========
+
+CombiSwitch
+-----------
+CombiSwitch   <N   v
+Ail > Rudder   OFF          can set here, or via RUDDER+ mixer
+
+Ail.Diff.
+---------
+Mode       ON
+Diff.    1  15%   (NORMAL phase, launch camber O switch down)
+         4 100%   (START1 phase, launch camber O switch up)
+
+ELEVATOR+
+---------
+Elevator    45%    60%
+Flap        -3%    -3%        camber compensation
+Throttle    15%    23%        airbrake compensation
+Spoiler     OFF     4%        launch camber compensation
+Mixture    ----     7%        speed trim with E slider
+
+AILERON+
+--------
+1 Aileron   ----  -70%
+2 Flap        8%    6%        camber
+3 Throttle  100%  -25%        ailerons move down, then up  with throttle stick
+4 Spoiler   -38%   -4%        launch camber
+5 Ele -Tr     6%   12%        snap flap
+
+FLAP+
+-----
+1 Aileron    35%   35%
+2 Flap       -6%   -6%        camber
+3 Throttle  100%   50%        flaps move down continuously with throttle stick
+4 Spoiler    27%    4%        launch camber
+5 Ele -Tr    -6%   -8%        snap flap
+
+RUDDER+
+-------
+1 Rudder    ----   90%
+2 Ail -Tr   ----  -25%               basic ail->rud mix  (adds to CombiSwitch)
+3 Ail -Tr   ----  -30% O ^           added ail->rud with launch camber
+4 Ail -Tr   ----  -20% Lstick v      added ail->rud with airbrake
+5 Spoiler   ----   OFF  
+
+
+
+Servo Menu    (button 4)
+========== 
+
+Calibrate
+---------
+Max-gain straight curve for each servo
+Adjust Rev/Trm to set direction/trim
+
+Assignment  (arbitrary, except for LRLR ordering of wing surfaces)
+----------
+1 RUDDER+
+2 AILERON+ (Left)
+3 AILERON+ (Right)
+4 FLAP+    (Left)
+5 FLAP+    (Right)
+6 ELEVATR+
+
+
+
+Timer     (button 5)
+=====
+
+Sum
+---
+Time      0:00:00
+Alarm     0:00:00
+
+Interval
+--------
+Time      0:00:00
+Alarm     0:00:00
+
+
+
+Memory    (button 6)
+======
+
+Flight phase
+------------
+1 NORMAL    ---
+2 NORMAL    ---
+3 NORMAL    ---
+4 START1    <O      (launch)
+
+
+

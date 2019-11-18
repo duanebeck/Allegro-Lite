@@ -1,0 +1,59 @@
+
+Ply joiner box assembly
+-----------------------
+
+Note: This must be done before the wing panels are assembled.
+      Be sure to look at these drawings when reading this info sheet.
+
+ joiners.pdf
+ wing_seq.pdf
+ wing_build.pdf
+
+
+1) Working on a flat nonstick surface, assemble each set of three 
+laser-cut 1/8" ply wedge pieces into 3/8" wide wedges with 5-minute epoxy 
+or medium CA.  Bond strength is not critical here.  Remove excess 
+adhesive from the wedge faces to get good subsequent bonds to the 
+rod, tube, or sparcap.
+
+2) Roughen and degrease the outside of the brass tube.  Epoxy the tube 
+between the shallow wedges on top and bottom.  Likewise, epoxy the 
+carbon rod between the steep wedges on top and bottom.  Note that 
+the bottom rod wedge is tiny.  Use a good slow epoxy for this step.
+If you're good at jigging up lots of separate pieces together,
+proceed immediately with 3).  Otherwise wait until the epoxy sets up
+to a rubbery state.
+
+3) Epoxy on the 1/64" full-height side plates (not in the laser set) 
+to the tube and rod assemblies, filling the voids with extra epoxy.  
+Also add the provided laser-cut 1/8" full-height side plates to the 
+tube assembly.  When done, the tube assembly will be 5/8" wide, 
+and the rod assembly will be 3/8" wide. 
+
+4) Clean excess epoxy off the assemblies when it's still rubbery.
+Deburr the inside tube edges with an old #11 X-Acto knife.
+Make sure the rod fits easily into the tube.  If not, sand the rod
+with fine sandpaper on a hard block. 
+
+5) The tube and rod assemblies will be treated just like the laser-cut
+endgrain web pieces during spar/rib assembly.  They must be trimmed to
+the exact correct length.   Wrap the rod with masking tape when 
+installing the rod assembly into the mid panel spar to prevent excess
+epoxy from contaminating it.
+
+6) The extra 1/8" side plates on the tube assembly must first be beveled
+so the assembly comes out with a 1/2" width and the tube ends up with
+a sweep which matches the rod sweep (see joiners.pdf and wing_plan.pdf 
+drawings).  The beveling lines are best determined by sliding the tube 
+assembly onto the completed mid panel and aligning the mid panel with 
+the center-panel plan.  A belt or disk sander is ideal for beveling the ply.
+It's OK to leave the assembly a little wider than 1/2", so its sides
+will be bulged slightly after cleanup (see wing_build.pdf).
+
+7) The completed mid panel is used as a jig to keep the tube assembly 
+at the precise sweep angle in the center panel spar during its assembly.
+Be careful that excess epoxy which might ozze out doesn't glue the rod 
+into the tube during this step!
+
+
+

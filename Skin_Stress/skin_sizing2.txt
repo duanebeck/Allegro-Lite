@@ -1,0 +1,185 @@
+Skin Sizing of Stressed-Skin Wings
+----------------------------------
+Mark Drela       revised 05 May 03
+
+
+A stressed-skin composite wing, which has the skin
+taking most of the bending load, will typically fail
+by local buckling or "face wrinkling" of the top
+compression-side skin.  The failure stress can be
+estimated by established theoretical formulas, such as 
+those obtained from the following Mich.Tech.U. web site:
+
+http://callisto.my.mtu.edu/MY472/
+(click on "Sandwich Core Structures" at bottom)
+
+
+The compressive skin stress at the onset of wrinkling
+is given approximately by
+
+   sigma_wr  =  0.57 ( E Ec^2 )^0.333
+
+where
+
+   E   =  skin modulus along the span
+   Ec  =  core modulus perpendicular to the surface
+
+The formula above assumes that the skin is flat, 
+without local dents or other defects, and is bonded well 
+to the core.  In reality, the chordwise curvature of the skin 
+will stabilize it somewhat and tend increase sigma_wr,
+while the spanwise curvature will destabilize it somewhat
+and tend to decrease sigma_wr.  Local manufacturing defects
+will of course decrease sigma_wr.  In practice, some 
+safety margin from the theoretical sigma_wr above is
+probably prudent.
+
+=========================================================================
+Use of the formula for sigma_wr requires knowing the skin and core 
+elastic moduli E.  The moduli of common skin materials are:
+
+  E  =  20. Msi    unidirectional CF
+  E  =  11. Msi    0/90   CF cloth
+  E  =  2.8 Msi    +/-45  CF cloth
+
+  E  =  6.0 Msi    unidirectional S-glass
+  E  =  4.0 Msi    0/90   S-glass cloth
+  E  =  2.5 Msi    +/-45  S-glass cloth
+
+  E  =  5.7 Msi    unidirectional E-glass
+  E  =  3.5 Msi    0/90   E-glass cloth
+  E  =  1.7 Msi    +/-45  E-glass cloth
+
+(Note: Msi = 1 million psi)
+
+The moduli Ec of the various foams used for cores is listed
+in the accompanying table "Elastic Modulus Of Common Foams"
+(file Foam_modulus2.txt).  For any foam these can be measured
+by a simple benchtop experiment, as described in the accompanying 
+sheet "Measuring Elastic Modulus via 3-Point Bending Test"
+(foam_stiffness.pdf).   The core modulus Ec in the wrinkling
+criterion above corresponds to the thickness-direction modulus
+from the table:
+
+ Ec = E33
+
+
+=========================================================================
+Three-meter glider skin-sizing example...
+
+  E  = 20 Msi      uni CF skin
+  Ec = 3000 psi    Foamular 400 pink foam  (E33)
+
+  sigma_wr  =  0.57 ( 20*10^6 * 3000^2 )^0.3333  =  32200 psi
+
+-------------------------------------------------------------------------
+
+  chosen upper skin stress:   sigma_u  =  29000 psi    (0.9 x sigma_wr )
+  chosen lower skin stress:   sigma_l  = 150000 psi    (tensile failure)
+
+  wing span    :  b = 130 in
+  wing load    :  F = 150 lb      (winch line force)
+
+
+* At wing center  (at span fraction eta=0),  MH32 (T/c=0.0866) ...
+
+  moment factor:  a = 0.95       ( picked from table below. at eta=0.00 )
+  stress factor:  f = 0.0449     ( "Ixx/t(Y-Yc)" from Xfoil, approx. 0.5*T/c)
+  chord        :  c = 10 in
+  bend. moment :  M = a b F/8 = 2315 lb-in
+  skin load    :  P = M/(f c^2) = 515 lb/in
+
+  minimum upper skin thickness:  t_u = P / sigma_u = 0.0178 in   (4 layers)
+  minimum lower skin thickness:  t_l = P / sigma_l = 0.0034 in   (1 layer )
+
+
+* End of center panel (at span fraction eta=0.45),  MH32 (T/c=0.0866) ...
+ 
+  moment factor:  a = 0.25       ( picked from table below. at eta=0.45 )
+  stress factor:  f = 0.0449     
+  chord        :  c = 9 in
+  bend. moment :  M = a b F/8 = 579 lb-in
+  skin load    :  P = M/(f c^2) = 159 lb/in
+
+  minimum upper skin thickness:  t_u = P / sigma_u = 0.0055 in   (1+ layer)
+  minimum lower skin thickness:  t_l = P / sigma_l = 0.0011 in   (1  layer)
+
+
+-------------------------------------------------------------------------
+Approximate tip deflection...
+
+* Actual situation at wing center
+
+  bend. moment  :  M = 2315 lb-in
+  stiff. factor :  k = 0.002097   ("Ixx/t" from Xfoil, approx. 0.28*(T/c)^2 )
+  chord         :  c = 10 in
+  upper skin th.:  t_u = 0.0180 in   (4 layers)
+  lower skin th.:  t_l = 0.0045 in   (1 layer )
+
+  effective thickness :  t = 2 t_u t_l / (t_u + t_l) = 0.0072 in
+  section bend.inertia:  I = k c^3 t = 0.0151 in^4
+
+  spanwise beam curvature:  curv = M / (E I) = 0.00767 / in
+
+  tip deflection:  d_tip  =  curv b^2 / 8  =  16 in
+
+
+This d_tip assumes a constant spanwise curvature.  Because 
+the outer parts of wing are likely to have an "oversized" skin,
+the actual tip deflection will be somewhat smaller.
+
+
+
+========================================================================
+Appendix
+
+The load factor "a" gives the spanwise distribution of bending moment,
+relative to the center value on a uniformly-loaded rectangular wing.
+The "a_uni" column is for the uniformly-loaded wing.
+The "a_ell" colume is for an elliptically-loaded wing.
+Virtually any wing will fall somewhere between the two columns, 
+depending on the amount of chord taper and twist.
+
+   eta   a_uni   a_ell
+  ----  ------  ------
+  0.00  1.0000  0.8488    root
+  0.05  0.9025  0.7520
+  0.10  0.8100  0.6615
+  0.15  0.7225  0.5774
+  0.20  0.6400  0.4996
+  0.25  0.5625  0.4280
+  0.30  0.4900  0.3626
+  0.35  0.4225  0.3032
+  0.40  0.3600  0.2498
+  0.45  0.3025  0.2022
+  0.50  0.2500  0.1603
+  0.55  0.2025  0.1240
+  0.60  0.1600  0.0929
+  0.65  0.1225  0.0669
+  0.70  0.0900  0.0458
+  0.75  0.0625  0.0292
+  0.80  0.0400  0.0168
+  0.85  0.0225  0.0082
+  0.90  0.0100  0.0030
+  0.95  0.0025  0.0005
+  1.00  0.0000  0.0000    tip
+
+
+For spreadsheet implementation, the following formulas will be more convenient:
+
+  a_uni = (1 - eta)^2
+  a_ell = 0.8488*(1 - eta)^2.4
+
+
+It is suggested that the following combined formula be actually used:
+
+  a  =  (1-k) * a_uni  +  k * a_ell
+
+The parameter "k" interpolates between the two limiting cases...
+
+  k = 0.0 :   a = a_uni   
+  k = 1.0 :   a = a_ell
+
+It is then only necessary to specify "k" from the range 0.0 - 1.0 .
+"Safe" planforms with broad tips will be close to k=0.0 , while
+"aggressive" planforms with strong taper will be close to k=1.0 .

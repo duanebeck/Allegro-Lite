@@ -1,0 +1,252 @@
+
+Load Testing of Wing Skins (Updated)                 Mark Drela  14 Aug '04
+==========================
+
+
+Discussion
+----------
+
+* Objective:
+To determine the failure load or failure stress of a given wing skin layup.
+
+* Likely failure mechanism:
+Buckling of the skin on the compression side.  
+The foam core participates (i.e. also fails) during the buckling.
+
+* Alternative failure mechanism:
+Local compression fracture (fiber mashing).  This is unlikely,
+except possibly at a fiber kink due to an oversize cross-fiber.
+Weblets may stabilize the skin sufficiently to allow fracture
+stress to be reached before buckling.
+
+* Other possible mechanisms to be avoided in test, 
+since they should not appear in a properly built wing:
+
+  - Shear failure of the foam. Avoided with sufficiently long beam.
+
+  - Delamination of skin. Avoided with a sufficiently good bond.
+
+  - Tension-side fiber failure. Unlikely.
+
+
+* Test article considerations:
+
+The highest fidelity test is obtained with an actual wing, 
+supported in the center and having a spanwise distributed load 
+simulating the airload.  This is obviously not practical.
+
+The next best simulation is just the center panel, supported
+in the center, with load applied at each end (3-point bending test).
+This is still not very practical.
+
+We next consider sub-scale test beams. It now makes sense to make
+such beams have a rectangular cross-section, for several reasons:
+
+  - A sub-scale airfoil-shaped beam has sharper chordwise 
+  curvatures than the real thing.  This will artificially 
+  stabilize the skin against buckling, and hence make the 
+  results overly optimistic.  In contrast, a rectangular beam 
+  has no stabilizing chordwise curvature, and hence will be 
+  pessimistic (conservative).
+
+  - A rectangular beam has the same skin stress at each chordwise
+  location, which simplifies the data reduction.
+
+  - Rectangular beams can be made en masse on one foam sheet.
+
+
+* Test beam sizing:
+
+Consider a beam under 3-point bend loading.
+
+               2F
+ 
+                |
+                v
+  =============================
+  ^                           ^
+  |                           |
+
+  F                           F
+
+   <----------- 2l ---------->
+
+
+Given:
+l = half-length of beam
+h = height of beam (skin separation distance)
+w = width (i.e. chord) of skin
+t = skin thickness
+F = load at each end (center load is -2F)
+
+Calculated:
+P = load on skin  (compression P on top, tension P on bottom)
+sigma = skin axial stress
+tau = core shear stress
+
+ P      =  F l / h
+ sigma  =  P / (w t)  =  F l / (h w t)
+ tau    =  F / (h w)  =  sigma t / l
+
+We must make sure that shear failure of the foam does not occur.
+The core shear stress tau must therefore be kept below its failure stress.
+For Hiload-60 or Foamular-600 this tau_max is estimated to be about 40 psi.
+The minimum length is then computed from the tau equation above, rearranged:
+
+ l_min  =  sigma t / tau_max
+
+
+The anticipated buckling stress sigma, from skin_sizing.txt writeup, is 
+
+ sigma_est  = 0.57 (E Ec^2)^0.3333  =  0.57 (20e6 * 6000^2)^0.3333  = 50000 psi
+
+so the beam half-length must be at least
+
+ l_min  =  50000 t / 40  =  1250 t
+
+Three layers of 3.5 oz CF will be about t = 0.015" thick, 
+so the beam half-length must be at least
+
+ l_min  =  1250 * 0.015  =  18"
+
+With weblets, the skin stress will likely be significantly larger,
+so the test beam length must be increased proportionately.
+I recommend a beam half length of at least l = 24"  (48" beam).
+
+For a given skin stress, the thickness of the beam doesn't affect 
+the foam shear stress.  I suggest a beam thickness of h = 0.75" or so.
+This will closely simulate the actual average wing thickness.
+
+The width of the beam is somewhat arbitrary.  A narrow beam is convenient
+to reduce the failure load F.  However, the beam has the free edges
+which may produce premature buckling.  This can be eliminated by
+making the foam wider than the skin caps.  I suggest w = 2" wide caps
+on a 3" wide foam beam.  For beams with weblets, there should be 
+a weblet located as close to each skin edge as possible, say within 1/8".
+The wider foam will also give additional margin against foam shear 
+failure.
+
+
+Test Summary
+------------
+
+Beam dimensions
+- - - - - - - - 
+48"   long
+3"    wide, with 2" wide skins
+0.75" high
+
+l = 24"
+w = 2"
+h = 0.75"
+
+Skin layup same as on the center of the wing.  A tapered skin 
+can be used on the beam, but this must taper no faster than 
+linearly towards the tip.  
+
+To save building time for multiple beams, the multiple skins can be 
+laid up 1" apart on one wide foam slab, which is then sliced apart 
+to make the beams.
+
+The foam must be replaced with something hard at the three load points.
+I suggest firm endgrain balsa, 1/4" thick at each end, and 1/2" thick 
+in the center.  Wipe cabosil/epoxy into the endgrain during layup 
+to prevent possible delamination from an epoxy-starved bondline 
+due to wicking.
+
+
+Test procedure
+- - - - - - - -
+While supporting the beam at each end, apply load L at the center.
+The supports and load applicator should span the whole 2" width 
+of the skin.  They should be at least 1/8" wide so the endgrain 
+balsa core inserts are not indented.
+
+Increase the load L steadily until beam fails, measuring it with 
+a bathroom scale or whatever.  Note the L value at failure.
+
+Stress computation:
+F  =  L/2
+sigma  =  F l / (h w t)
+
+Weblets are expected to significantly increase the failure sigma
+for any given skin.  Sample calculation for t = 0.015" (3-layer skin):
+
+L = 100 lb  (estimated)
+F = 100/2 = 50 lb
+sigma  =  50 * 24 / (0.75 * 2 * 0.015)  =  53333 psi
+
+This is the center sigma value.  The local sigma will decrease
+linearly to zero at the ends.  If tapered skin thickness is used
+on the test beam, it should be tapered no faster than linearly
+to the ends.
+
+
+Deflection:
+The deflection of a loaded wing can be very reliably predicted, 
+so there is little need to measure this in the test.  However, 
+the test setup needs to have clearance for the beam center deflection d.  
+Assuming the top and bottom skins are the same and uniform spanwise, 
+this is estimated by the following formula:
+
+ d  =  (2/3) F l^3 / ( E h^2 w t )
+
+Sample calculation:
+
+F = 50 lb
+E = 20e6 psi  (carbon modulus)
+
+d  =  (2/3) * 50 * 24^3 / (20e6 * 0.75^2 * 2 * 0.015)  =  1.36 inches
+
+With a thinner bottom skin the deflection will be somewhat larger.
+
+
+Alternative Test Beam Construction
+----------------------------------
+To allow using a shorter test beam, it is necessary to reduce or
+eliminate the foam shear stress.  One way is to attach a sufficiently
+strong extension to each end, and apply the load via a 4-point load setup:
+
+        L
+        |
+        v
+      _____ 
+      F   F
+      |   |
+      v   v
+======+===+======
+^               ^
+|               |
+F               F
+
+<--l-->
+
+
+The test beam is only between the two center load points. 
+It has a uniform skin load and zero foam shear.  The length
+of the test beam doesn't matter, except for possible stiffenening
+effects where the test beam attaches to the extensions.
+
+The center load points would probably be applied via a single center
+load L=2F with a cross bar, as indicated in the sketch.  All the 
+calculations still apply, if we make the new definition
+
+ l = separation of opposing load points on one side (length of extension)
+
+
+Pros:
+* Short uniform test beam
+* No balsa inserts required (load is applied to the extension arms).
+
+Cons:
+* Extensions are more work
+
+
+One possibility is to use 3/4" x 2" x 18" lumber for each extension.
+The center foam core is 3/4" x 3" x 6" foam. The skins are 2" wide,
+and extend onto the lumber for 1"-2" or so.
+
+After the load test, the skins can be peeled off and the lumber reused.
+
+
+

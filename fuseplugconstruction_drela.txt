@@ -1,0 +1,160 @@
+Mark Drela - October 21, 2000
+
+For those wanting to make their own pod mold,
+you might consider turning the basic shape on
+a metal-turning lathe.  That's how I did mine,
+and it was far easier, faster, and more accurate
+than whittling the shape by hand with templates.
+
+It is the lathe analog of the "template-free"
+sanding method described on the CRRC Apogee page.
+But the lathe tool bit is used instead of the 
+sanding block, so it's much easier.  There are
+no curves to hand sand, just simple-curve wing deck
+which is best done with a belt sander.
+
+This is the procedure:
+
+1) The wood block is two halves lightly spot-glued
+together with Ambroid, with the chuck rod sandwiched
+between them and sticking out the back.
+
+2) The block is turned to a cylinder the same size
+as the outermost diameter of the pod (1.72").
+
+3) The pod is then shaped by machining off cones
+of material.  The cone angles and positions are
+set up to be tangent to the pod shape surface. 
+
+4) The remaining slight corners are then sanded off
+by eye and the whole thing is finish-sanded on the lathe.
+
+It takes less than 2 hrs of work up to this point,
+starting with raw lumber.
+
+5) Separate the mold halves by wicking a lot of acetone 
+into the joint, and putting the pod into a Ziploc bag
+with some more acetone squirted in to give it time to
+dissolve the Ambroid.  Go for lunch and the halves 
+should fall apart when you return.
+
+6) Bandsaw in the wing deck shape into each half,
+and sand to final shape with the edge of belt sander,
+if available.
+
+7) The A-Lite pod shape also has the upper half over the
+hatch area tilted by about 0.25" at the wing leading edge.
+I did this by putting in a horizontal wedge of wood
+at the z=0 waterline.  The wedge's point is about 1.375"
+back from the nose (at the spinner base of the electric version),
+and the wedge's 0.25" base is about 6" back from the nose.
+To free the part of the plug above the wedge, I made the
+crosscuts with a razor saw, and the rip cuts with an X-acto
+with the point broken off a bit. 
+
+8) The halves are taped together where possible.  
+The vertical walls just under the wing are built up with 
+a microbaloon/epoxy paste, with vertical shiny tape-covered balsa
+planks pressed against the sides to set the vertical wall shape.
+
+9) The extra wood and microballoon build-up is sanded to 
+the final shape of the wing deck.  Round off all corners 
+slightly for a better layup.
+
+10) The halves are very lighly tacked together near the edge 
+for putting on the finish.  I used four thin West 105/205 coats,
+waiting for jelling between coats.
+
+11) The plug is split again, and the halves are RTV'd down on
+Plexiglass for the mold build-up.  I added a half-rod shape on each
+half for the tailboom channel.  On the A-Lite this is angled down 
+by 1 degree, but with the flying stab it really doesn't have to be.
+
+For the record, below are the coordinates of the basic pod shape,
+in inches.  Plot like any airfoil.
+
+
+Allegro fuselage
+    14.731470    0.250000
+    14.297490    0.307644
+    14.108469    0.332751
+    13.735859    0.380746
+    13.300978    0.434408
+    12.847121    0.488696
+    12.392019    0.541616
+    11.940777    0.591091
+    11.493261    0.635403
+    11.046713    0.673862
+    10.598965    0.706708
+    10.148935    0.734529
+     9.696363    0.758036
+     9.241480    0.777884
+     8.784513    0.794665
+     8.325661    0.808931
+     7.865219    0.821179
+     7.403608    0.831837
+     6.941461    0.841169
+     6.479687    0.849176
+     6.019036    0.855586
+     5.559897    0.859943
+     5.102450    0.861730
+     4.646736    0.860427
+     4.192564    0.855531
+     3.739969    0.846677
+     3.290033    0.833479
+     2.845440    0.815217
+     2.411125    0.790438
+     1.993749    0.756547
+     1.600530    0.710201
+     1.237052    0.647624
+     0.911963    0.570529
+     0.646387    0.488966
+     0.448524    0.411913
+     0.306388    0.341494
+     0.203808    0.275422
+     0.128245    0.213878
+     0.071414    0.157861
+     0.030875    0.104593
+     0.007390    0.051469
+     0.000114    0.000059
+     0.007522   -0.051371
+     0.031158   -0.104494
+     0.071851   -0.157752
+     0.128837   -0.213779
+     0.204604   -0.275330
+     0.307473   -0.341386
+     0.450017   -0.411781
+     0.648427   -0.488797
+     0.914596   -0.570247
+     1.240131   -0.647123
+     1.603922   -0.709416
+     1.997410   -0.755493
+     2.414993   -0.789141
+     2.849457   -0.813704
+     3.294152   -0.831772
+     3.744161   -0.844794
+     4.196815   -0.853487
+     4.651041   -0.858237
+     5.106813   -0.859408
+     5.564314   -0.857506
+     6.023505   -0.853049
+     6.484202   -0.846555
+     6.946014   -0.838477
+     7.408201   -0.829088
+     7.869849   -0.818386
+     8.330330   -0.806105
+     8.789223   -0.791819
+     9.246225   -0.775028
+     9.701146   -0.755181
+    10.153762   -0.731689
+    10.603830   -0.703892
+    11.051622   -0.671084
+    11.498213   -0.632673
+    11.945779   -0.588422
+    12.397074   -0.539022
+    12.852226   -0.486191
+    13.306129   -0.432004
+    13.741055   -0.378449
+    14.113694   -0.330555
+    14.302728   -0.305503
+    14.731470   -0.250000

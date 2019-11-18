@@ -1,0 +1,125 @@
+Created  25 Oct 00   MD
+Edited   17 May 01   MD
+
+Sparcap/Web/Rib Assembly
+------------------------
+
+Bevel the ends of each web segment to exactly match
+the "sweep" of the ribs.  Likewise for the joiner ply webs.
+All the webs in one panel have the same angle, so it makes 
+sense to make little mid-panel and tip-panel angle sanding 
+jigs by double-sticking small wood blocks down on the table. 
+There must be NO gaps or voids between the webs and ribs.  
+Test fit the web/rib stack-up before gluing.
+
+0.014" bagging Mylar is an ideal material for the necessary
+0.015" (close enough) shim under the bottom sparcap.
+Cut it into strips the same size as the sparcaps.
+
+Use the slowest epoxy you can find for the assembly.
+Laminating resin is OK, since it will be thickened.
+The small tip panels are built first, which will
+allow you to judge whether you have enough pot life
+for the bigger mid and center panels.
+
+Thicken the epoxy with Cabosil until it gets difficult
+to apply.  It should hold its shape like Vaseline.
+The best applicator is a disposable epoxy
+brush (with the rolled metal handle).  Trim the bristles
+to half their normal length to make the brush stiffer
+for the thick epoxy.  A passable applicator is a 
+square balsa stick the same width as the spar
+(1/2, 3/8, or 1/4) trimmed at a bevel.
+
+- - - 
+Addition:  17 May 01   MD
+Before doing the midpanel web/rib/spar assembly, glue the ply/rod
+joiner units to the mid-panel bottom sparcap, aligning them
+carefully over the plan.  This is the bond which includes the 
+mat or glass in the bond line.   The main assembly can then proceed
+as soon as this bond sets up enough to handle.  
+
+This pre-bonding of the joiner rod units in the correct alignment 
+eliminates the possibility of them squirming out of position when 
+the main assembly is weighted down.  Checking their alignment after
+weighting is difficult since the view of the plan is obstructed
+by the clamping straightedges and weights.  
+
+The same pre-gluing technique can also be used for the ply/tube units 
+of the center panel, but here the possibility of their squirming 
+is not an issue if the completed midpanels are used to hold the 
+ply/tube units in position.
+- - -
+
+Apply an excess of epoxy to the whole sparcap,
+and start laying down web, rib, web, rib...
+Butter the ends of each web segment before you put it down.
+
+Wipe off epoxy which oozes out from all the web/rib bonds
+just after clamping down everything (or just before clamping
+if the access will be limited).
+Do NOT wipe off the epoxy which oozes out from the web/sparcap bonds.
+These are better cleaned off afterwards.
+
+IMO, the best glue for all the other wood/wood joints is Titebond
+or any other equivalent yellow wood glue.  CA is OK but is heavier
+and more brittle.  CA is not suitable for attaching the top LE sheeting.
+
+Use slow epoxy with lots of microballoons for gluing in the balsa 
+triangle fillets to the front spar side, and for gluing the top 
+filler strip to the top spar side.  This fills the divots between 
+the Kevlar tow wraps without adding much weight.
+
+The bottom filler strip does not carry loads, and can be glued
+onto the spar with Ambroid for minimum added weight.  Any voids 
+which develop in the bond line between tows don't matter.  
+Weight down the strip firmly until dry.
+
+
+Kevlar wrapping
+---------------
+
+Transfer all the 60 feet of Kevlar tow to a piece of
+large dowel or piece of broomstick.  This is
+most easily done by chucking the dowel
+in a lathe or drill press, and running at low speed.
+You cannot apply good tension on the Kevlar if
+it's wound on something flimsy.  Have a helper hold
+the Kevlar dowel while you wind the Kevlar onto the
+spar with both hands.  Or anchor the dowel somehow
+if no helper is available.
+
+Unwind the kevlar from the dowel the same way
+as you wound it on.  Don't pull it off the end
+of the dowel, since this will put twists into it.
+Twisted Kevlar tow will wind onto the spar as 
+a nasty small rope rather than a nice flat ribbon.
+
+Over each panel-end rib bay (those with ply webs),
+aggressively round off the sparcaps and ply webs
+and thin out the sparcaps as you approach the end ribs.
+The sparcaps ideally want to taper over the joiner bond,
+from their normal cross section at the next-to-end rib,
+down to zero at the end rib itself (don't go to this extreme, 
+though).   The taper evens out the shear stresses and actually 
+gives a stronger spar/rod and spar/tube connection.  Thinning  
+the sparcap at the end rib also allows adding more Kevlar wraps 
+right at the end to prevent bursting.  If the sparcaps are 
+not thinned, the thicker Kevlar can protrude out of the 
+airfoil contour on the bottom.
+
+The glass/Kevlar wrap over the joiner bays is the most
+difficult to wet out.  After mixing the epoxy, apply it 
+at the joiner bay first, when its viscosity is the lowest.
+Lightly heating of the spar at that bay before epoxy 
+is applied greatly enhances wicking (this is recommended
+with medium-viscosity epoxies like West 105/206).  
+The Kevlar on the rest of the spar wets out very easily
+without heating.
+
+Put masking tape on the carbon rod and mask off the 
+brass tube opening before wetting out the spar.
+
+Blotting off extra epoxy is much easier if a bit of heat 
+is applied.
+

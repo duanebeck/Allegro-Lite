@@ -1,0 +1,90 @@
+29 Oct 00   first draft
+
+
+Panel End Rib Installation
+--------------------------
+The panel end ribs require great care in installation.
+The four end-rib/spar joints transfer all torsion loads between
+panels.  Failure of any of these joints during hard winching
+or a high-speed dive will likely result in destruction of the glider.
+
+Rough up the Kevlar wrap all around the spar where the end rib 
+and its gusset is attached.  Glue these on with a good slow epoxy.
+Fill any gaps with thickened epoxy. 
+
+See "Glassing End Ribs" for further work on this joint.
+
+
+Trailing Edge Installation
+--------------------------
+Notch the TE strips with a ~6 in piece of ~1 x 3/32 hard balsa,
+with 150 grit sandpaper glued to one edge.  Cut the sandpaper 
+edge strip to an accurate 3/32 width with a straightedge and 
+razor blade.  Sand the side of this sanding block until the
+notches it produces give a light friction fit with the ribs.
+Glue on a hard 1/16 depth-gauge strip to the block, 
+about 3/32 from the sandpaper edge (i.e. the notches 
+are about 3/32 deep).
+
+Position the notched TE strip on the plan and trim all 
+the ribs to the exact length to fit the notches.
+Put a healthy blob of Titebond in each notch, and work
+the strip onto the ends of the ribs.  Make absolutely
+sure each rib is seated flush with the bottom surface
+(lift the panel to check).  An unseated rib will put
+an unsightly glitch in the bottom covering.  Wipe off 
+oozed out Titebond, but leave some as generous fillets 
+in all corners.
+
+
+Leading Edge Installation
+-------------------------
+The bottom edge of the inner LE strip must be bevelled before 
+it is glued to the ribs.  The "Accurate Shaping..." info sheet 
+shows how to sand the edge at the correct slope.  See the 
+wing_plan.pdf drawing for the required bevel slopes.
+Bevel the edge of a 3/32 sheet first, and then cut 
+the strip off with a straightedge and razor or X-acto. 
+
+Bevel the front tip of each rib to match the LE sweep.
+Glue the LE strip onto the ribs, making absolutely sure
+it is flush with the bottom of each rib.  Turn the wing over
+if that helps.  Using Titebond allows the strip position 
+to be adjusted before it sets.
+
+It is not necessary to bevel the bottom of the outer LE strip
+before installation, but it considerably simplifies accurate
+final shaping of the LE.
+
+
+Glassing End Ribs
+-----------------
+Bevel the side of each end rib to the required 6 degree angle.
+Apply 2 layers of 1.5oz or 2.0oz glass to the top and bottom of 
+the end ribs.  Carry the glass over the spar as shown on wing_plan.pdf.  
+Put microballoons/epoxy on the spar if necessary to get the glass 
+to lie smoothly and without any voids under it.  This glass is 
+crucial to prevent the joint from peeling apart under load.
+
+
+Rear Support Strip Installation (can be done after sheeting D-tube)
+-------------------------------
+For each panel, cut a tapering strip from 3/32 sheet, 
+with widths shown on the wing_plan.pdf drawing.
+Cut each segment by placing one end of the long strip 
+against a rib, and nicking it at the other rib.
+Cut at the nick or very slightly outside, and sand
+the end of the strip segment to a perfect friction fit
+between the ribs.  Leave it in position and continue 
+with the next strip segment.
+
+Glue all the segments by removing each one, applying Titebond
+to the strip and rib, and replacing.  Sight down the panel 
+to align them perfectly (a wavy strip line is unsightly).  
+Raise them all slightly above the ribs, and push them back 
+down flush with the ribs using a straightedge.  Wipe off all 
+Titebond beads, leaving generous fillets.
+
+Use this same nick-and-cut method to install the spoiler well
+strips in the center panel.  The triangle strip at the spoiler
+hinge is installed beforehand.

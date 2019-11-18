@@ -1,0 +1,17 @@
+This directory contains all the Bubble Dancer drawings I have.
+Many of the details have not been finalized yet, since the
+prototypes are still under construction (as of Feb '01).
+The BD construction method is identical to that of the 
+Allegro-Lite, and the structural details are also essentially 
+the same.  So please refer to the more detailed AL plans 
+and construction notes for additional info.
+
+Update (13 Sep 02):
+I added DXF versions of the multi-sheet drawings.
+These were auto-converted from the original source PostScript,
+and are not aesthetically perfect.  Fonts are badly sized, 
+hidden lines aren't hidden, etc., but they should come out
+dimensionally correct and usable, especially if you also have
+the correct multi-sheet PDF versions printed out for reference.
+
+- Mark Drela

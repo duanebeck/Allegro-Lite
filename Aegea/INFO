@@ -1,0 +1,41 @@
+Aegea is a fairly unique aileron 2m glider.  
+It has the following distinguishing features:
+
+* Very low weight (21 oz)
+* High aspect ratio (12.6)
+* Moderately low wing loading (6.2 oz/ft^2)
+* AG4x DLG airfoils
+* Relatively generous EDA (6.0 deg)
+
+The main design goal is to achieve good thermalling performance 
+via the low span loading.  The AG4x DLG airfoil series with 
+full-span camber control are used to give good speed performance 
+despite the low weight.  The large flaps and ailerons, when set
+at about +20 degrees, give acceptable winching performance despite 
+the unusually small wing area of 490 in^2.  The generous EDA makes 
+the Aegea very easy to thermal, especially at large distances which 
+is a major problem with 2m gliders.  The Aegea can be viewed as 
+a natural 2-meter implementation of the latest DLG technology. 
+
+
+The Aegea has proven to be a formidable structural challenge,
+mainly due to the very thin wing and the large pitching moment
+of the cambered flaps and ailerons on tow.  Everything is sized
+for stiffness.  The aileron servos don't quite fit, so a careful
+fairing job is necessary.  The flap servo had to be put in the 
+fuselage.  This helps with CG, but gives a lot of mechanical 
+complexitydue to the pushrod hookup and the flap torque rods 
+and linked horns.
+
+The Aegea II is a redesign consisting of a simple ~10% wing chord 
+increase.  This greatly improves the practicality of the design, 
+in that the structural constraints become much easier to meet.  
+The sparcaps can be thinner, and one layer of Kevlar becomes 
+sufficient for the center section.  The 4-servo wing is vastly 
+simpler than the 3-servo wing with the fuselage-mounted flap servo.
+The Aegea's tail has proven to be quite generous, so the same 
+tail is being used for the Aegea II.  If you are considering 
+building this glider, the Aegea II is strongly recommended.
+
+
+- Mark Drela

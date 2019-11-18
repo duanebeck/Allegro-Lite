@@ -1,0 +1,80 @@
+Pushrod Selection
+-----------------
+
+29 Oct 00    MD
+
+My fuselages have the following:
+
+Winching fuse:  0.025" wire for rudder,  0.040" carbon for elevator
+Electric fuse:  0.025" wire for rudder,  0.020" wire   for elevator
+
+
+As I see it, the only advantage of the carbon pushrod is elimination 
+of trim changes with temperature.  This is really only important 
+to fliers who do maximum-performance winch launches on the edge of stall, 
+and do not want their winching pitch trim to change ever.  For sport 
+and electric fliers this is not a concern --- a few clicks of the 
+elevator trim will take care of it.
+
+I've originally spec'ed a carbon pushrod for the rudder as well, 
+but now I think it is not so important.  Rudder trim changes don't 
+affect winching significantly, since you're always flying the rudder 
+when going up on the line.  And any crosswind has a much bigger 
+effect anyway.  The advantage of the wire pushrods is that they are 
+tougher, easier to install and replace, and cheaper.  The weights are:
+
+0.020 x 36 wire:  1.5 g  +  0.7 g housing  =  2.2 g
+0.040 x 36 CF  :  1.2 g  +  1.0 g housing  =  2.2 g
+
+It's a wash.  Using 0.030 carbon for the elevator would give a weight benefit, 
+but this is just too flimsy for this glider.  The airloads on it are tiny, 
+but the loads from bumping the stab platform during handling and assembly 
+can be significant.
+
+
+Stretching CST teflon housings
+------------------------------
+Tie each end to a small rod, and *slowly* stretch until it "hardens" 
+and won't stretch any more (like a rubber band).  It should increase 
+in length almost 5x, with only a little bit of springback.  The weight
+drops fivefold.
+
+The ends need to be tied to something with at least three hitches, 
+since the stuff is so slippery it will squirm through your fingers 
+or an inadequate knot.
+
+The Allegro-Lite pushrod housings are made from CST 0.050-size teflon 
+housing, which has about 0.070" ID.  When fully stretched the ID will 
+go down to about 0.035" -- just right for 0.020 or 0.025 wire.  For the
+0.040 carbon pushrod, it is stretched only about 3x in length.
+
+
+Mounting the stretched teflon housings
+--------------------------------------
+When installing the housings, put the largest K&S piano wire which 
+will fit into them.  I used 0.032" wire for the small housings, 
+and 0.047" wire for the larger carbon housing .  The oversize jig wire
+will minimize waviness and give minimal friction when the smaller actual 
+pushrods are put in.
+
+Tack the housings into position with a few small beads of 5 minute epoxy.
+Put balsa wedges at each end to hold the housing at the correct location.
+
+Secure them permanently all along their length with 3/8" wide strips 
+of 0.75 oz glass cut on a bias.  Brush on a stripe of *highly* thickened
+epoxy over the housing and underlying balsa or kevlar, and put down the glass.
+Pack the glass around the housing and Kevlar with a piece of 1/32 bass 
+or hard balsa.  If the glass doesn't stay down, add more thickener 
+to the batch.
+
+4" long glass strips are convenient to handle.  The bias cut prevents 
+fraying and makes them conform around the housing more easily.  But you
+cannot pull on the end of such a strip when positioning it, since it 
+will permanently neck down like a Chinese finger puzzle.  The strip
+can be moved only by pushing from the side.
+
+Over most of the boom where the housings are together and straight, 
+I just used 1/2" wide thin Mylar tape to secure them.  The tape doesn't
+work in spots where the housing is curved.  Its adhesive will fatigue
+and eventually let go as it's worked by the slightly wiggling housing.
+ 

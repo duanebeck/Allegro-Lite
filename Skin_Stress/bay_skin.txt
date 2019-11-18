@@ -1,0 +1,79 @@
+
+Stressed-Skin Sizing over Servo Bays
+------------------------------------
+Mark Drela 
+28 Apr 03
+
+A servo bay cut into the bottom surface of a stressed-skin 
+removes much of the buckling support for the upper surface
+skin directly above the bay.  This loss of support severly 
+reduces the stress which the upper surface skin can withstand
+without local buckling failure.
+
+This analysis determines the increased local upper surface 
+skin thickness which is required to compensate for the weakening 
+of the servo bay.  The alternative method of using short CF rods
+to stiffen the skin is also considered.
+
+This calculation procedure requires using mostly the same relations 
+as the skin sizing calculations, applied at the servo bay location.
+
+=========================================================================
+Three-meter glider example...
+
+  E = 20 Msi      uni CF skin modulus
+
+
+  wing span    :  b = 130 in
+  wing load    :  F = 150 lb      (winch line force)
+
+  unsupported spanwise length of skin:
+    case 1:   L = 0.5 in    (only over servo arm area)
+    case 2:   L = 1.5 in    (over whole servo bay)
+
+At servo bay location  (span fraction eta=0.2), MH32 (T/c=0.0866) ...
+
+  moment factor:  a = 0.6     (from appendix table in file  skin_sizing.txt)
+  stress factor:  f = 0.0449  ( "Ixx/t(Y-Yc)" from Xfoil, approx. 0.5*T/c)
+  chord        :  c = 9.7 in
+  bend. moment :  M = a b F/8 = 1460 lb-in
+  skin load    :  P = M/(f c^2) = 345 lb/in
+
+
+  minimum thickness of unsupported skin:  t_bay  =  1.2 ( P L^2 / E )^0.3333
+
+    case 1:   t_bay = 0.0195 in   (4+ layers)
+    case 2:   t_bay = 0.0290 in   (6+ layers)
+
+
+--------------------------------------------------------------------
+The increased local skin thickness may be impractical to implement. 
+An alternative is to use CF rods buried just under the unmodified skin.
+Each rod should be perhaps 1.0-1.5" longer than the servo bay.
+The chordwise spacing of the rods must be set so that the resulting
+unsupported structure has a buckling load comparable to the
+surrounding supported skin.
+
+
+  chosen rod diameter :  d = 0.060 in
+  existing skin thick.:  t = 0.009 in
+
+
+Rod spacings to match the required skin thicknesses from above...
+
+For case 1...  
+   required thick.:  tr = 0.0195 in
+   rod spacing    :  s  =  0.6 d^4 / (tr^3 - t^3)  =  1.16 in
+
+For case 2... 
+   required thick.:  tr = 0.0290 in
+   rod spacing    :  s  =  0.6 d^4 / (tr^3 - t^3)  =  0.33 in
+
+
+These spacing estimates assume that the rods and the existing skin
+are not bonded together, and contribute to the stiffness independently.
+In reality, the fully-bonded structure will be stiffer than the 
+sum of the parts.  The non-bonded assumption simply produces 
+a smaller and hence more conservative spacing. 
+
+

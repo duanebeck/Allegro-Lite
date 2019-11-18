@@ -1,0 +1,70 @@
+Preforming D-Tube Sheeting                       MD  2 June 01
+--------------------------
+
+It is very strongly recommended that you preform the curvature
+in the D-tube sheeting before installing it.  This has a number
+of advantages:
+
+* The sheeting will be more resistant to cracking, since the 
+outer wood surface will not be in tension.
+
+* The installation will be much easier, with minimal clamping jigs
+being needed to make sure the sheeting contacts the ribs everywhere.
+
+* There will be less sheeting sag (yes, sheeting can sag slightly
+but visibly if it's forced onto the ribs).
+
+
+The main chore will be to find forms with the right curvature.
+One possibility is a wide thin aluminum sheet bent into a gentle curve 
+by hand over the thigh.  You can then pick spots on the aluminum 
+which best match the required curve of the LE sheeting.  Another
+possibility is to hot-wire the forms, covering them with something
+to protect them from the heat gun.
+
+The effort to get or make the form and do the preforming is 
+very well worth it, IMO.  You'll be very glad you did it.
+
+
+I originally just forced the wetted sheets onto the form and
+let them dry.  This works OK, but the drying takes many many hours.
+I used the new heat-gun procedure below on my new wing.  This is
+tremendously faster, and allows holding down by hand which is easier.
+
+
+
+Forming procedure:
+
+1)  Cut sheeting close to correct dimension.  About 1/16" extra along the LE
+and sides is plenty.  Sand smooth with 220 and 320 grit to minimize on-wing
+sanding later.
+
+2) Wet the sheeting with water.  Long soaking is not necessary.  Blot off excess.
+
+3) Using a heat gun, dry off inner (to be concave) surface of sheeting until it is 
+just dry to the touch.  Using intense heat is OK, but keep the gun moving 
+to prevent charring once surface starts to get dry.  This takes a few minutes
+at most.  Sheeting will be curved in both directions since the other wet surface
+is still swelled.
+
+4) Press sheeting against form and hold down with large piece of porous cloth 
+material taped down or wrapped around form.  Holding down with oven-mitted 
+extra hands is also OK and simpler.
+ 
+5) Dry off the outer wet surface with the heat gun again.  This takes only
+a little longer if using the cloth hold-down method.
+
+6) Lift the sheeting off the form.  It will be slightly "potato-chipped" in
+shape since the inner surface became damp again as the heat forced the water
+through the sheeting.
+
+7) Dry off the damp inner surface using the heat gun, more gently this time.
+The spanwise curvature should disappear, and the chordwise curvature should 
+increase slightly.  The curvature will likely be a little sharper than that
+of the form.  Before the sheeting is completely dry, you can fine-tune the
+curvature by pressing against the form one way or the other while finishing 
+the drying.
+
+
+
+

@@ -1,0 +1,62 @@
+
+Sizing of Wing Joiners for Required Strength
+Mark Drela   8 Aug 01
+
+
+ joiner rod:     R  =  ( a F b / 2 pi sigma ) ^ 0.333    
+
+ joiner blade:   w  =  0.75 a F b / h^2 sigma
+
+R = rod radius   (inches)
+w = blade width  (inches)
+h = blade height (inches)
+a = load factor  (see below)
+F = winch load   (lbs)
+b = span         (inches)
+pi = 3.14159
+sigma = max allowable material stress
+      =   5000 psi  spruce
+      =  40000 psi  6063 aluminum
+      =  55000 psi  2024 aluminum
+      =  70000 psi  7075 aluminum
+      =  80000 psi  mild steel  (varies widely)
+      = 100000 psi  pultruded carbon fiber with nick safety margin
+      = 150000 psi  pultruded carbon fiber
+      = 180000 psi  piano wire
+      = 250000 psi  hardened steel
+The sigma values are typical at yield or failure.
+
+
+The load factor "a" accounts for the spanwise location of the joiner,
+and also for the type of spanwise load distribution expected.  Almost
+all glider wings will be somewhere between the two values in the 
+2nd and 3rd columns, depending on the amount of taper and washout 
+under load.
+
+   eta   a_uni   a_ell
+  ----  ------  ------
+  0.00  1.0000  0.8488    root
+  0.05  0.9025  0.7520
+  0.10  0.8100  0.6615
+  0.15  0.7225  0.5774
+  0.20  0.6400  0.4996
+  0.25  0.5625  0.4280
+  0.30  0.4900  0.3626
+  0.35  0.4225  0.3032
+  0.40  0.3600  0.2498
+  0.45  0.3025  0.2022
+  0.50  0.2500  0.1603
+  0.55  0.2025  0.1240
+  0.60  0.1600  0.0929
+  0.65  0.1225  0.0669
+  0.70  0.0900  0.0458
+  0.75  0.0625  0.0292
+  0.80  0.0400  0.0168
+  0.85  0.0225  0.0082
+  0.90  0.0100  0.0030
+  0.95  0.0025  0.0005
+  1.00  0.0000  0.0000    tip
+
+eta = fractional spanwise location of the joint
+a_uni = "a" factor for uniform loading
+a_ell = "a" factor for elliptical loading

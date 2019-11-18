@@ -1,0 +1,20 @@
+Measured boom deflection on M.Drela's Allegro-Lite:
+
+ * Fuselage is clamped down onto its wing platform.
+ * 2 lb weight is suspended from stab mount.
+ * Boom deflection at stab mount is 0.56 inches.
+
+
+Checking stiffness of new boom:
+
+ * Clamp about 3" of big end of boom down to edge of table, 
+   using wood blocks with slightly oversize half-holes.  
+   Wrap tape around boom at x=0" and x=3" to snugly fit the hole.
+ * Hang about 2 lbs of weight 24" from edge of wood (at x=27").
+ * Deflection at load point should be 0.28"/lb weight.
+ * If deflection is less than this, re-mount with less boom 
+   being cantilevered, until deflection is 0.28"/lb.
+ * Excess big end protruding from other end of block
+   can be trimmed for a lighter boom
+   (but make sure the remainder is long enough!)
+ 

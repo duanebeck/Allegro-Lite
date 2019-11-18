@@ -1,0 +1,54 @@
+
+Elastic Modulus Of Common Foams                last revision:   5 May 03
+========================================================================
+
+foam            rho        E11    E22    E33    E33/rho     data source
+type         (lb/ft^3)    (psi)  (psi)  (psi)  (in/10^6)
+----------    -------    ------ ------ ------   --------    ------------
+Spyder foam     2.30             4000   6900      5.18      Mark Drela
+Spyder foam     2.36      1218   3358   7027      5.14      Phil Barnes
+
+Hi-Load 60      2.25      1100   3400   6000      4.61      Mark Drela
+Hi Load 60a     2.30      1229   2819   6212      4.67      Phil Barnes
+Hi Load 60b     2.30      1412   2888   6412      4.82      Phil Barnes
+
+Dow blue        1.75      2000    640   2500      2.47      Mark Drela
+
+Foamular 250a   1.63      2317   1899   2372      2.51      Phil Barnes
+Foamular 250b   1.63      2430   1972   2476      2.62      Phil Barnes
+
+Foamular 400a   1.98      2788   2946   2941      2.54      Phil Barnes
+Foamular 400b   1.98      2920   3088   3087      2.67      Phil Barnes
+
+Foamular 600a   3.04      4927   4927   5108      2.90      Phil Barnes
+Foamular 600b   3.04      4716   4807   5251      2.98      Phil Barnes
+
+Grey Foam a     1.54      2894   1054    640      0.72      Phil Barnes
+Grey Foam b     1.54      2845   1105    588      0.66      Phil Barnes
+
+Stylite a       1.93      1877   2906   3489      3.12      Phil Barnes
+Stylite b       1.93      1847   2854   3416      3.06      Phil Barnes
+
+Rohacell 31     1.90      5120   5120   5120      4.66      CST
+Rohacell 51     3.10      9950   9950   9950      5.55      CST
+
+4.7lb balsa     4.70    160000                              Mark Drela
+
+---------------------------------------------------
+
+
+Definitions
+-----------
+
+rho = density
+E11 = modulus along  sheet (8' dimension)
+E22 = modulus across sheet (2' dimension)
+E33 = modulus across thickness
+E/rho = specific modulus
+
+
+For foam core applications, the relevant modulus is E33.
+
+For bare foam wings (slow fliers, etc), the relevant modulus
+is either E11 (span is along foam sheet), or E22 (span is
+across foam sheet).
